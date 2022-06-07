@@ -159,6 +159,7 @@ background-color: var(--turqouise);
 
 .error{
     color: var(--red);
+    margin-right: 100px;
     display: none;
 }
 
@@ -218,7 +219,8 @@ background-color: var(--turqouise);
         padding: 48px 38px;
     }
 
-    .price__amount{
+    .price__tip__amount,
+    .price__total__amount{
         font-weight: 700;
         font-size: 32px;
         color: var(--turqouise);
