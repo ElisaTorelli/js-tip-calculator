@@ -73,6 +73,7 @@ resetBtn(billInput, peopleInput, customTipOption);
 // DISPLAY ERROR MESSAGE
 // function displayErrorMessage(peopleInput){
 //     if(peopleInput < 0){
-//         error.style.backgroundColor = 'red';
+//         let errorMsg = `<label for="" class="error">Can't be Zero!</label>`
+//         people__number.innerHTML += error;
 //     }
 // }

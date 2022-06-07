@@ -160,7 +160,7 @@ background-color: var(--turqouise);
 .error{
     color: var(--red);
     margin-right: 100px;
-    display: none;
+    display: block;
 }
 
 
