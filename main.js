@@ -71,8 +71,8 @@ resetBtn(billInput, peopleInput, customTipOption);
 
 
 // DISPLAY ERROR MESSAGE
-function displayErrorMessage(peopleInput){
-    if(peopleInput < 0){
-        error.style.backgroundColor = 'red';
-    }
-}
+// function displayErrorMessage(peopleInput){
+//     if(peopleInput < 0){
+//         error.style.backgroundColor = 'red';
+//     }
+// }
