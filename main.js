@@ -30,7 +30,7 @@ let tips = [5, 10, 15, 25, 50];
 function tipCalculator(bill, tipsOptions, numberOfPeople, tipAmountOutput){
     for(i = 0; i < tips.length; i++){
         if(tipsOptions.classList.contains(`${tips[i]}`)){
-            let billResult = (parseFloat(bill) / parseFloat(numberOfPeople)) * `${tips[i]}` / 100;
+            let billResult = (parseFloat(bill) / parseFloat(numberOfPeople)) * (tips[i]) / 100;
             tipAmountOutput.innerHTML = '$' + billResult.toFixed(2);
             if(isNaN(billResult) || (billResult) == "Infinity"){
                 tipAmount.innerHTML = "$0.00";
